@@ -21,8 +21,8 @@
 - Идея: {{project_name}}
 - Кому помогает: {{project_user}}
 - Какую задачу упрощает: {{project_problem}}
-- Папка проекта: {{project_path}}
-- Краткое описание проекта: {{project_brief_path}}
+- Папка проекта: `{{project_path}}`
+- Краткое описание проекта: `{{project_brief_path}}`
 
 Локальные файлы открываются через Codex. Если brief нужен, попроси Codex показать его.
 
