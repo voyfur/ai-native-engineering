@@ -55,7 +55,7 @@
 
 ## Что записать после выбора
 
-Создай начальный brief в `learner-project/PROJECT_BRIEF.md`. Если папки ещё нет, сначала подготовь её автоматически внутри открытой папки курса: скопируй `CAPSTONE_AGENTS_TEMPLATE.md` как `learner-project/AGENTS.md` и создай `learner-project/wiki/index.md` и `learner-project/wiki/session-handoff.md`. Не проси ученика создавать или открывать отдельный Codex-проект.
+Создай начальный brief в `learner-project/PROJECT_BRIEF.md`. Если папки ещё нет, автоматически подготовь её внутри открытой папки курса: создай `learner-project/`, скопируй `CAPSTONE_AGENTS_TEMPLATE.md` как `learner-project/AGENTS.md`, затем из корня курса обязательно запусти `python3 .agents/skills/llm-wiki-session-memory/scripts/bootstrap.py learner-project`. После успешного bootstrap проверь наличие базовых файлов Wiki и только затем создай brief. Не заменяй полный bootstrap ручным созданием только двух Markdown-файлов; ученику не нужно выполнять команды или открывать отдельный Codex-проект.
 
 Запиши подробности выбранной идеи только в `PROJECT_BRIEF.md`. В карточке ученика сохрани имя, учебные предпочтения, ссылку на страницу курса в Notion и относительный путь `learner-project/`; не дублируй в ней brief.
 

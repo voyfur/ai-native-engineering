@@ -44,6 +44,6 @@
 - ограничения, допущения и основной риск;
 - относительный путь к brief: `learner-project/PROJECT_BRIEF.md`.
 
-Создай `learner-project/PROJECT_BRIEF.md` по PROJECT_TEMPLATE.md. Если вложенная папка ещё не существует, Codex создаёт её внутри папки курса, копирует в неё инструкции из CAPSTONE_AGENTS_TEMPLATE.md и создаёт Wiki проекта. Не проси ученика открывать второй Codex-проект.
+Создай `learner-project/PROJECT_BRIEF.md` по PROJECT_TEMPLATE.md. Если вложенная папка ещё не существует, Codex создаёт её внутри папки курса, копирует в неё инструкции из CAPSTONE_AGENTS_TEMPLATE.md как `learner-project/AGENTS.md`, затем запускает из корня курса `python3 .agents/skills/llm-wiki-session-memory/scripts/bootstrap.py learner-project`. После успешного bootstrap проверь, что установлена полная Wiki проекта, и создай brief. Не создавай Wiki вручную вместо скрипта и не проси ученика запускать команды или открывать второй Codex-проект.
 
 Подробности проекта храни в brief и `learner-project/wiki/`. В карточке контекста оставь только путь к папке и brief, а на домашней странице Notion — короткое подтверждённое название и локальный путь. Не выдавай локальный путь за веб-ссылку. Пока этап 4 не завершён, не пиши бизнес-логику и не подключай реальные системы.
